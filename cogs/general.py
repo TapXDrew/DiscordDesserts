@@ -246,6 +246,7 @@ class General(commands.Cog):
             embed.add_field(name="Invalid Oven", value="Hmmm...I cant seem to find that oven. Make sure you are using the right name")
             embed.set_footer(text="View all ovens with the 'oven' command")
         await ctx.send(embed=embed)
+        pass
 
 
 def setup(bot):
