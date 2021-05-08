@@ -94,7 +94,10 @@ class Player:
         self.cursor.execute(query, (value, self.ctx.author.id))
         self.conn.commit()
         self._get_player_info()
+<<<<<<< HEAD
 
     def purgeAll(self):
         self.conn.close()
         os.remove(DATABASE)
+=======
+>>>>>>> 6a4f225065013ebb29d3cea170160f2db5b877e5

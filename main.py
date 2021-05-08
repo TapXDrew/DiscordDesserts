@@ -12,8 +12,12 @@ class DiscordDesserts(commands.AutoShardedBot):
     config = json.load(open(os.getcwd() + '/config/config.json'))
 
     initial_extensions = [
+<<<<<<< HEAD
         "cogs.general",
         "cogs.error"
+=======
+        "cogs.general"
+>>>>>>> 6a4f225065013ebb29d3cea170160f2db5b877e5
     ]
 
     def __init__(self):
